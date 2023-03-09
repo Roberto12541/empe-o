@@ -1,0 +1,165 @@
+.navbar{
+    height: 65px;
+    margin: 0;
+    .container{
+        max-width: 980px;
+        margin: auto;
+        .navbar-brand{
+            color: #525fe1;
+            font-weight: bold;
+        }
+        .navbar-toggler-icon{
+            width: 25px;
+            height: 25px;
+            padding: 0;
+        }
+        #navbarNavDropdown{
+            background-color: #f9fbfc;
+        }
+        .navbar-toggler{
+            border: none;
+            font-weight: bold;
+        }
+        .offcanvas{
+            a:hover{
+                color: #525fe1;
+            }
+            .offcanvas-header{
+                .offcanvas-title{
+                    color: #525fe1;
+                    font-weight: bold;
+                }
+            }
+            .offcanvas-body{
+                padding: 0px 20px;
+                ul{
+                    .active{
+                        color: #525fe1;
+                        font-weight: bold;
+                    }
+                    .dropdown{
+                        .dropdown-menu{
+                            --bs-dropdown-link-active-bg: none;
+                            border: none;
+                            margin: 0;
+                            .dropdown-item{
+                                padding: 0 25px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// header{
+//     position: sticky;
+//     top: 0;
+//     width: 100%;
+//     height: 70px;
+//     background-color: #f9fbfc;
+//     & .container__header{
+//         max-width: 1200px;
+//         height: 100%;
+//         margin: auto;
+//         padding: 20px;
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: center;
+//         i{
+//             color: #525fe1;
+//         }
+//         & a{
+//             color: #525fe1;
+//             font-weight: bold;
+//             font-size: 20px;
+//             text-decoration: none;
+//         }
+//         & .menu{
+//             background-color: #f9fbfc;
+//             height: 0px;
+//             position: absolute;
+//             right: 5px;
+//             top: 65px;
+//             overflow: hidden;
+//             z-index: 10;
+//             box-shadow: 0px 0px 30px -20px rgb(0 0 0 / 50%);
+//             transition: all 300ms;
+//             & nav ul{
+//                 display: flex;
+//                 padding: 20px 0px;
+//                 flex-direction: column;
+//                 & li{
+//                     list-style: none;
+//                     padding: 10px 40px;
+//                     & .item-nav{
+//                         font-size: 16px;
+//                         text-decoration: none;
+//                         transition: opacity 300ms;
+//                         color: gray;
+//                         &-activo{
+//                             color: #525fe1;
+//                             @extend .item-nav;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//         & .mostrar_menu {
+//             height: 235px;
+//         }
+//         & #icon_menu {
+//             display: block;
+//             cursor: pointer;
+//             font-size: 24px;
+//         }
+//     }
+// }
+// @media (min-width: 992px){
+//     header .container__header{ 
+//         padding: 0px 50px;
+//         & #icon_menu{
+//             display: none;
+//         }
+//         & .menu{
+//             position: relative;
+//             overflow: visible;
+//             top: 10px;
+//             right: 0;
+//             height: auto;
+//             background-color: #f9fbfc00;
+//             & nav ul{
+//                 flex-direction: row;
+//                 padding: 0;
+//                 gap: 20px;
+//                 & li{
+//                     padding: 0;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// .navbar{
+//     height: 65px;
+//     .container{
+//         .navbar-brand{
+//             color: #525fe1;
+//             font-family: MuseoSansRounded;
+//             font-weight: 1000;
+//         }
+//         .navbar-toggler-icon{
+//             width: 25px;
+//             height: 25px;
+//             padding: 0;
+//         }
+//         #navbarNavDropdown{
+//             background-color: #f9fbfc;
+//         }
+//         .navbar-toggler{
+//             border: none;
+//             font-weight: bold;
+//         }
+//     }
+// }
